@@ -1,0 +1,68 @@
+const data = [
+    {
+        id: 2645900,
+        name: "Iphone 13",
+        description: "Latest iphone on the market.",
+        price: 1100,
+        category: "phone",
+        image: "images/iPhone-13-Pro-Max-back.jpeg",
+    },
+    {
+        id: 2645901,
+        name: "MacBook Pro",
+        description: 'Apple M1 chip 7-core GPU - 8 GB RAM - 512 GB SSD - 14 inches - Windows 10',
+        price: 1300,
+        category: "computer",
+        image: "images/laptop2.jpg",
+    },
+    {
+        id: 2645902,
+        name: "Intel laptop",
+        description: 'Intel Core i7 9th - Gen 16 GB RAM - 512 GB SSD - 4GB NVIDIA Graphics Card - 16.3 inches - Windows 10 - 1 year Warranty',
+        price: 1750,
+        category: "computer",
+        image: "images/laptop.jpg",
+    },
+    {
+        id: 2645903,
+        name: "Pro wireless headset",
+        description: "Wireless headset with a microphone",
+        price: 250,
+        category: "headset",
+        image: "images/pro-wireless-headset-gallery-1.png",
+    },
+    {
+        id: 2645904,
+        name: "Samsung Galaxy S22",
+        description: "Best laptop.",
+        price: 1600,
+        category: "computer",
+        image: "images/Samsung-Galaxy-S22-Exynos-featured-image-packshot-review-Recovered.jpg",
+    },
+    {
+        id: 2645905,
+        name: "Laptop",
+        description: "Best laptop.",
+        price: 1600,
+        category: "computer",
+        image: "images/laptop2.jpg",
+    },
+    {
+        id: 2645906,
+        name: "Laptop",
+        description: "Best laptop.",
+        price: 1600,
+        category: "computer",
+        image: "images/laptop2.jpg",
+    },
+    {
+        id: 2645907,
+        name: "Laptop",
+        description: "Best laptop.",
+        price: 1600,
+        category: "computer",
+        image: "images/laptop2.jpg",
+    },
+]
+
+export default data;
