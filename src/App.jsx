@@ -1,12 +1,19 @@
 import React from "react";
-import SearchBar from "./SearchBar";
-import Products from "./Products";
+import SearchBar from "./components/SearchBar";
+import Products from "./components/Products";
+import PriceFilter from './components/PriceFilter';
 
 function App() {
     return (
         <main>
-            <SearchBar />
-            <Products />
+            <section className="filters">
+                <p>TECHY</p>
+                <PriceFilter/>
+            </section>
+            <section className = "page-contents">
+            <SearchBar/>
+            <Products/>
+            </section>
         </main>
     );
 }
