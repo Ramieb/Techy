@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+}
+
+html {
+    background: rgb(0, 0, 0, 0.1);
+    /* --boxshadowcolor: rgba(36, 36, 36, 0.6); */
+    font-family: Arial, sans-serif;
+    /* width: 205vh; */
+}
+
+.searchBar {
+    text-align: center;
+}
+
+.searchBar input {
+    height: 2.3rem;
+    width: 35rem;
+    font-size: 17px;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding-left: 3rem;
+}
+
+.searchButton {
+    height: 2.5rem;
+    font-size: 13px;
+    background-color: rgb(36, 135, 168);
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    margin-left: 3px;
+    width: 5rem;
+}
+
+.collection {
+    margin: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    /* background-color: rgb(0, 0, 0, 0.3); */
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 0.5rem 0.5rem 0 var(--boxshadowcolor); */
+    border: 0.12rem solid black;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    width: 20rem;
+    /* height: 22rem; */
+    height: 30rem;
+    margin: 1rem;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+.desc-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card img {
+    height: 50%;
+    width: 90%;
+    display: flex;
+    align-self: center;
+    border-radius: 4px;
+}
+
+.card h3 {
+    display: flex;
+    justify-self: flex-start;
+}
+
+.add-to-cart-button {
+    width: 6rem;
+    align-self: center;
+    align-items: center;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.add-to-cart-button img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.add-to-cart-button:hover {
+    cursor: pointer;
+}
+
+.filters {
+    /* flex-basis: 20rem; */
+    /* flex-grow: 1; */
+    padding: 1rem;
+    background-color: rgb(0, 0, 0, 0.3);
+    min-height: 100vh;
+    width: 18rem;
+    min-width: 18rem;
+    max-width: 18rem;
+}
+
+main {
+    /* min-height: 100vh; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 202vh;
+}
+
+fieldset {
+    margin-top: 0.5rem;
+    border: 0.25rem solid black;
+}
+
+legend {
+    font-weight: bold;
+}
+  
+label {
+    display: block;
+    text-transform: capitalize;
+}
+  
+label + label {
+    margin-top: 0.25rem;
+}
+
+.page-contents {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: stretch; */
+    width: 95rem;
+    min-width: 95rem;
+    max-width: 95rem;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.filters p {
+    font-family: Rockwell;
+    font-size: 80px;
+}
+
+/* .navbar {
+    position: absolute;
+    top: 4px;
+    display: flex;
+    align-items: center;
+} */
+
+.navbarItems {
+    display: flex;
+}
+
+.navbarItems button{
+    margin: 15px;
+    background: #00b0ad00;
+    width: 5rem;
+    height: 3rem;
+    font-size: 17px;
+    border-radius: 5px;
+    border-color: white;
+    font-weight: 500;
+    color: white;
+}
+
+.navbarItems button:hover {
+    cursor: pointer;
+}
+
+.navbarContainer {
+    display: flex;
+    background: rgb(21, 85, 107);
+    height: 4.5rem;
+    width: 202vh;
+    align-items: center;
+}
+
+.everythingElse {
+    display: flex;
+    position: absolute;
+    top: 5rem;
+}
+
+.registerAndLoginButtons {
+    position: absolute;
+    right: 0;
+}
