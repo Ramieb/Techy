@@ -198,3 +198,69 @@ label + label {
     position: absolute;
     right: 0;
 }
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.registerForm button{
+    width: 50%;
+    height: 2rem;
+}
+
+.registerForm input {
+    width: 70%;
+    text-align: center;
+    height: 2rem;
+    font-size: 18px;
+}
+
+.registerTitle {
+    text-align: center;
+    font-size: 25px;
+}
+
+.registerFieldset {
+    border-width: 3px;
+    border-color: rgb(0, 0, 0, 0.3);
+    width: 25rem;
+    margin: 1rem;
+    border-radius: 20px;
+    background: whitesmoke;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.loginForm button{
+    width: 50%;
+    height: 2rem;
+}
+
+.loginForm input {
+    width: 70%;
+    text-align: center;
+    height: 2rem;
+    font-size: 18px;
+}
+
+.loginTitle {
+    text-align: center;
+    font-size: 25px;
+}
+
+.loginFieldset {
+    border-width: 3px;
+    border-color: rgb(0, 0, 0, 0.3);
+    width: 25rem;
+    margin: 1rem;
+    border-radius: 20px;
+    background: whitesmoke;
+}

@@ -21,7 +21,7 @@ function PriceFilter() {
           value={price.priceFilter[0]}
           onChange={e => dispatch(priceManager({ priceFilter: [e.target.value, price.priceFilter[1]]}))}
         />
-        {' '}{price.priceFilter[0]}
+        {' '}${price.priceFilter[0]}
       </label>
       <label htmlFor="max-price">
         Max price
@@ -35,7 +35,7 @@ function PriceFilter() {
           value={price.priceFilter[1]}
           onChange={e => dispatch(priceManager({ priceFilter: [price.priceFilter[0], e.target.value]}))}
         />
-        {' '}{price.priceFilter[1]}
+        {' '}${price.priceFilter[1]}
       </label>
     </fieldset>
     );
