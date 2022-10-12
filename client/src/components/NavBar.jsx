@@ -9,12 +9,12 @@ function NavBar() {
       <Navbar>
           <Container className='navbarContainer'>
             <Nav className="navbarItems">
-              <a href='#home'><button>Home</button></a>
+              <a href='/'><button>Home</button></a>
               <a href='#features'><button>Features</button></a>
               <a href='#pricing'><button>Pricing</button></a>
               <div className='registerAndLoginButtons'>
-              <a href='#register'><button>Register</button></a>
-              <a href='#login'><button>Login</button></a>
+              <a href='register'><button>Register</button></a>
+              <a href='login'><button>Login</button></a>
               </div>
             </Nav>
           </Container>

@@ -17,7 +17,7 @@ function CategoryFilter() {
     const dispatch = useDispatch()
     const category = useSelector((state) => state.category.value)
     return (
-    <fieldset>
+    <fieldset style={{padding:'0.5rem'}}>
         <legend>Category</legend>
         {categories.map( cat => (
             <label htmlFor={cat} key={cat}>

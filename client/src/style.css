@@ -1,5 +1,6 @@
 * {
     padding: 0;
+    margin: 0;
 }
 
 html {
@@ -54,7 +55,7 @@ html {
     background-color: rgb(255, 255, 255);
     width: 20rem;
     /* height: 22rem; */
-    height: 30rem;
+    height: 25rem;
     margin: 1rem;
     justify-content: space-between;
     border-radius: 6px;
@@ -100,8 +101,6 @@ html {
 }
 
 .filters {
-    /* flex-basis: 20rem; */
-    /* flex-grow: 1; */
     padding: 1rem;
     background-color: rgb(0, 0, 0, 0.3);
     min-height: 100vh;
@@ -110,12 +109,10 @@ html {
     max-width: 18rem;
 }
 
-main {
-    /* min-height: 100vh; */
+/* main {
     display: flex;
-    /* flex-wrap: wrap; */
     width: 202vh;
-}
+} */
 
 fieldset {
     margin-top: 0.5rem;
@@ -160,8 +157,10 @@ label + label {
     align-items: center;
 } */
 
-.navbarItems {
-    display: flex;
+.navbarItems a {
+    display: inline-block;
+    width: 0;
+    margin-right: 7rem;
 }
 
 .navbarItems button{
@@ -184,18 +183,19 @@ label + label {
     display: flex;
     background: rgb(21, 85, 107);
     height: 4.5rem;
-    width: 202vh;
+    width: 100%;
     align-items: center;
 }
 
 .everythingElse {
     display: flex;
-    position: absolute;
-    top: 5rem;
+    position: relative;
+    /* top: 4rem; */
 }
 
 .registerAndLoginButtons {
     position: absolute;
+    top: 0;
     right: 0;
 }
 
@@ -263,4 +263,18 @@ label + label {
     margin: 1rem;
     border-radius: 20px;
     background: whitesmoke;
+}
+
+.registerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
 }
