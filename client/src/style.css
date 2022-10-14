@@ -4,14 +4,18 @@
 }
 
 html {
-    background: rgb(0, 0, 0, 0.1);
+    /* background: rgb(0, 0, 0, 0.1); */
     /* --boxshadowcolor: rgba(36, 36, 36, 0.6); */
     font-family: Arial, sans-serif;
+    background: linear-gradient(cornflowerblue, #90181B) no-repeat;
+    /* height: 100%; */
+    /* background-image: url("images/starry-night-2.jpg"); */
     /* width: 205vh; */
 }
 
 .searchBar {
     text-align: center;
+    margin-top: 30px;
 }
 
 .searchBar input {
@@ -23,7 +27,6 @@ html {
     background-position: left center;
     border: 1px solid;
     border-radius: 4px;
-    margin-top: 5px;
     padding-left: 3rem;
 }
 
@@ -102,11 +105,23 @@ html {
 
 .filters {
     padding: 1rem;
-    background-color: rgb(0, 0, 0, 0.3);
-    min-height: 100vh;
+    background: linear-gradient(#F62217, #5C0F12);
+    height: 80%;
+    min-height: 80%;
     width: 18rem;
     min-width: 18rem;
     max-width: 18rem;
+    position: fixed;
+    top: 7rem;
+    left: 1rem;
+    border-radius: 50px;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px; */ 
+    /* --mask: 
+    radial-gradient(1200px,#000 98%,#0000) right/2400px 2220.00px;
+          mask: var(--mask); */
 }
 
 /* main {
@@ -143,6 +158,9 @@ label + label {
     max-width: 95rem;
     /* justify-content: center; */
     align-items: center;
+    position: relative;
+    top: 5rem;
+    left: 22rem;
 }
 
 .filters p {
@@ -161,18 +179,68 @@ label + label {
     display: inline-block;
     width: 0;
     margin-right: 7rem;
+    text-decoration: none;
+    vertical-align: middle;
 }
 
-.navbarItems button{
+.home-button {
     margin: 15px;
-    background: #00b0ad00;
     width: 5rem;
     height: 3rem;
-    font-size: 17px;
-    border-radius: 5px;
-    border-color: white;
+    font-size: 25px;
     font-weight: 500;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-button {
+    margin: 15px;
+    width: 5rem;
+    height: 3rem;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-button {
+    margin: 15px;
+    width: 5rem;
+    height: 3rem;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-button {
+    margin: 15px;
+    width: 5rem;
+    height: 3rem;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button {
+    margin: 15px;
+    width: 5rem;
+    height: 3rem;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbarItems button:hover {
@@ -181,22 +249,23 @@ label + label {
 
 .navbarContainer {
     display: flex;
-    background: rgb(21, 85, 107);
-    height: 4.5rem;
+    background: #483D8B;
+    height: 5rem;
     width: 100%;
     align-items: center;
+    position: fixed;
+    z-index: 20;
 }
 
 .everythingElse {
-    display: flex;
-    position: relative;
-    /* top: 4rem; */
+    padding-bottom: 15rem;
 }
 
 .registerAndLoginButtons {
     position: absolute;
     top: 0;
     right: 0;
+    /* height: 4.5rem; */
 }
 
 .registerForm {
@@ -278,3 +347,102 @@ label + label {
     align-items: center;
     height: 90vh;
 }
+
+.techy {
+    margin-bottom: 9rem;
+    text-align: center;
+}
+
+.price-filter {
+    width: 90%;
+}
+
+.category-filter {
+    width: 90%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }

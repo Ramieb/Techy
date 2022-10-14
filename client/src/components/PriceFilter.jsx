@@ -7,7 +7,7 @@ function PriceFilter() {
     const dispatch = useDispatch()
     const price = useSelector((state) => state.price.value)
     return (
-      <fieldset style={{padding:'0.5rem'}}>
+      <fieldset className='price-filter' style={{padding:'0.5rem'}}>
       <legend>Price</legend>
       <label htmlFor="min-price">
         Min price

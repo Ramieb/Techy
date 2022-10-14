@@ -4,6 +4,7 @@ import Products from "./Products"
 import PriceFilter from './PriceFilter'
 import CategoryFilter from './CategoryFilter'
 import NavBar from './NavBar'
+import Slider from "./Slider"
 
 function HomePage() {
     return (
@@ -11,12 +12,13 @@ function HomePage() {
             <NavBar />
             <div className="everythingElse">
             <section className="filters">
-                <p>TECHY</p>
+                <p className="techy">TECHY</p>
                 <PriceFilter /> <br />
                 <CategoryFilter />
             </section>
             <section className = "page-contents">
             <SearchBar />
+            {/* <Slider /> */}
             <Products />
             </section>
             </div>
