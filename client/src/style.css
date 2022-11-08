@@ -105,16 +105,20 @@ html {
 
 .filters {
     padding: 1rem;
-    background: #38464ba9;
-    height: 80%;
-    min-height: 80%;
+    background: #9FA1A3;
+    height: 60%;
+    min-height: 60%;
     width: 18rem;
     min-width: 18rem;
     max-width: 18rem;
     position: fixed;
-    top: 7rem;
-    left: 1rem;
+    /* top: 7rem; */
+    left: 3rem;
     border-radius: 50px;
+    border: 5px solid black;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     /* border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 50px;
@@ -139,7 +143,7 @@ legend {
 }
   
 label {
-    display: block;
+    display: flex;
     text-transform: capitalize;
 }
   
@@ -349,12 +353,22 @@ label + label {
 }
 
 .techy {
-    margin-bottom: 9rem;
+    margin-bottom: 5rem;
     text-align: center;
 }
 
 .price-filter {
     width: 90%;
+}
+
+.min-input, .min-price-in-numbers {
+    position: relative;
+    left: 4px;
+}
+
+.max-input, .max-price-in-numbers {
+    position: relative;
+    left: 1px;
 }
 
 .category-filter {

@@ -12,6 +12,7 @@ function PriceFilter() {
       <label htmlFor="min-price">
         Min price
         <input
+          className='min-input'
           type="range"
           id="min-price"
           min="0"
@@ -21,11 +22,14 @@ function PriceFilter() {
           value={price.priceFilter[0]}
           onChange={e => dispatch(priceManager({ priceFilter: [e.target.value, price.priceFilter[1]]}))}
         />
-        {' '}${price.priceFilter[0]}
+        <div className='min-price-in-numbers'>
+          ${price.priceFilter[0]}
+        </div>
       </label>
       <label htmlFor="max-price">
         Max price
         <input
+          className='max-input'
           type="range"
           id="max-price"
           min="0"
@@ -35,7 +39,9 @@ function PriceFilter() {
           value={price.priceFilter[1]}
           onChange={e => dispatch(priceManager({ priceFilter: [price.priceFilter[0], e.target.value]}))}
         />
-        {' '}${price.priceFilter[1]}
+        <div className='max-price-in-numbers'>
+          ${price.priceFilter[1]}
+        </div>
       </label>
     </fieldset>
     );
