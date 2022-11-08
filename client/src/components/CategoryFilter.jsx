@@ -29,7 +29,9 @@ function CategoryFilter() {
             checked={cat === category.categoryFilter}
             onChange={e => dispatch(categoryManager({ categoryFilter: e.target.value}))}
             />
-            {" "}{cat}
+            <div className='category-name'>
+                {cat}
+            </div>
         </label>
         ))}
         </fieldset>

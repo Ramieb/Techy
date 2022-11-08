@@ -55,7 +55,7 @@ html {
     /* box-shadow: 0.5rem 0.5rem 0 var(--boxshadowcolor); */
     border: 0.12rem solid black;
     padding: 1rem;
-    background-color: #F8F9F9;
+    background-color: #efefef;
     width: 20rem;
     /* height: 22rem; */
     height: 25rem;
@@ -373,6 +373,11 @@ label + label {
 
 .category-filter {
     width: 90%;
+}
+
+.category-name {
+    position: relative;
+    left: 3px;
 }
 
 /* Slideshow container */
