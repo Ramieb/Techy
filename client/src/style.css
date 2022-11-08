@@ -7,7 +7,7 @@ html {
     /* background: rgb(0, 0, 0, 0.1); */
     /* --boxshadowcolor: rgba(36, 36, 36, 0.6); */
     font-family: Arial, sans-serif;
-    background: linear-gradient(cornflowerblue, #90181B) no-repeat;
+    background: cornflowerblue;
     /* height: 100%; */
     /* background-image: url("images/starry-night-2.jpg"); */
     /* width: 205vh; */
@@ -55,7 +55,7 @@ html {
     /* box-shadow: 0.5rem 0.5rem 0 var(--boxshadowcolor); */
     border: 0.12rem solid black;
     padding: 1rem;
-    background-color: rgb(255, 255, 255);
+    background-color: #F8F9F9;
     width: 20rem;
     /* height: 22rem; */
     height: 25rem;
@@ -105,7 +105,7 @@ html {
 
 .filters {
     padding: 1rem;
-    background: linear-gradient(#F62217, #5C0F12);
+    background: #38464ba9;
     height: 80%;
     min-height: 80%;
     width: 18rem;
